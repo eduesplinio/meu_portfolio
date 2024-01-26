@@ -1,8 +1,8 @@
 :root {
-    --cor-primaria: #000000;
+    --cor-primaria: #1F1F1F;
     --cor-secundaria: #F6F6F6;
-    --cor-terciaria: #22D4FD;
-    --cor-hover: #00405e;
+    --cor-terciaria: #00A4EF;
+    --cor-hover: #4267B2;
 
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
@@ -111,13 +111,13 @@ body {
 
 
 .apresentacao__conteudo_subtítulo__topico {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-family: var(--fonte-secundaria);
     margin-top: -2rem;
 }
 
 .apresentacao__conteudo__atributos {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: var(--fonte-secundaria);
     margin-top: -2rem;
 }
@@ -125,7 +125,11 @@ body {
 .apresentacao__conteudo__lista {
     font-size: 1.2rem;
     font-family: var(--fonte-secundaria);
-    margin-top: -40rem;
+    margin-top: -50rem;
+}
+
+.apresentacao__conteudo__lista:hover {
+    font-family: var(--fonte-primaria);
 }
 
 .apresentacao__conteudo__texto {
@@ -136,7 +140,7 @@ body {
 
 .apresentacao__links {
     display: flex;
-    flex-direction: column;
+    flex-direction: inherit;
     align-items: center;
     justify-content: space-between;
     gap: 32px;
@@ -174,9 +178,14 @@ body {
     font-family: var(--fonte-secundaria);
 }
 
+.apresentacao__links__certf:active {
+    color: var(--cor-secundaria);
+    font-size: 1.25rem;
+}
+
+
 .apresentacao__links_certf li {
     margin-bottom: 2.0rem;
-    /* Adiciona espaçamento inferior entre os elementos da lista */
     margin-left: 2.0rem;
 }
 
@@ -197,9 +206,9 @@ body {
 
 .apresentacao__imagem {
     max-width: 100%;
-    width: 30%;
-    height: 30%;
-    margin-top: 100px;
+    width: 40%;
+    height: 40%;
+    margin: auto;
     border-radius: 3%;
 }
 
