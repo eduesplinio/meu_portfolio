@@ -169,20 +169,26 @@ body {
 }
 
 .apresentacao__links__certf {
+    margin-top: -3rem;
+    padding: 1.2rem 0;
     display: flex;
     flex-direction: column;
     list-style-type: disc;
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 400;
     color: var(--cor-hover);
     font-family: var(--fonte-secundaria);
 }
 
-.apresentacao__links__certf:active {
+.apresentacao__links__certf:hover {
     color: var(--cor-terciaria);
     font-size: 1.25rem;
 }
 
+.apresentacao__links__certf:active {
+    color: var(--cor-hover);
+    font-size: 1.25rem;
+}
 
 .apresentacao__links_certf li {
     margin-bottom: 2.0rem;
